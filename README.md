@@ -11,7 +11,7 @@ Evelyne
 * Navigate into the created folder
 * Open the project with a text editor eg atom (atom .)
 
-##BDD
+## BDD
 The app is expected to function as follows:
 * Be able to give the user a form for date input.
 * Be able to allow the user input their gender ie.either male or female.Other genders do not apply.
@@ -24,7 +24,7 @@ The app is expected to function as follows:
 * Javascript
 * CSS
 
-##Contact
+## Contact
 You can get intouch for any assistance.
 Evelyne Nduku- @Eve320 +254723694212 enduku98@gmail.com
 
