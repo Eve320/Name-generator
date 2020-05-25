@@ -13,18 +13,32 @@ var yy = parseInt(document.getElementById("year").value.slice(2,4));
 var dayOfTheWeek= Math.floor(( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(month+1)/10)) + date ) % 7);
 
 
-
-
-    var gndr = document.getElementsByName("one");
-    if(gndr[0].checked == true){
-        gender = "male";
-    }else if(gndr[1].checked == true ){
+var gndr = document.getElementsByName("one");
+  if(gndr[0].checked == true){
+    gender = "male";
+  }else if(gndr[1].checked == true ){
         gender = "female";
-    }
-    else {
+  }  else {
         alert("Select gender")
       }
 
+function validateMonth () {
+  if(month<=0 || month > 12) {
+    return false;
+    alert("Invalid  Month ,Please Try Again")
+  } else {
+    return true;
+  }
+}
+
+function validateDay(){
+  if(day<=0 || day>31){
+    return false;
+    alert("Invalid date, Please try again")
+  } else{
+    return true;
+  }
+}
 
 var bornDay;
     if (dayOfTheWeek == 0 && gender == "female") {
