@@ -29,7 +29,7 @@ var dayOfTheWeek= Math.floor(( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(month+1)/
 var bornDay;
     if (dayOfTheWeek == 0 && gender == "female") {
            bornDay = "Sunday";
-           document.getElementById("output").innerHTML = "You were born on " + bornDay + "and Your Akan name is "  + femaleArray[0];
+           document.getElementById("output").innerHTML = "You were born on " + bornDay + " and Your Akan name is "  + femaleArray[0];
            return true;
 
        } else if (dayOfTheWeek == 0 && gender == "male") {

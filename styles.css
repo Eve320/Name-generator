@@ -1,11 +1,13 @@
 .container{
-  background-image: url("images/akanpic.jpg");
+  background-image: url("images/akan.jpg");
   background-size: contain;
-  color: 	#800000;
+  background-blend-mode: screen;
+  color: #2F4F4F;
   padding:25px;
   border-radius:5px;
-  font-size: 150%;
+  font-size: 120%;
   background-color: burlywood;
+
 
 
 }
@@ -30,4 +32,8 @@
 
 .container p{
   text-align: left;
+}
+
+.col-md-5 h2{
+  text-align: center;
 }
