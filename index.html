@@ -10,13 +10,14 @@
   </head>
   <body>
     <div class="container">
-      <h1>AKAN NAME GENERATOR</h1>
-      <p>In many parts of Ghana, a person’s name is determined by the day of the week on which she/he was born.</p>
-      <p>Enter your birthdate and gender below to get your Akan name</p>
+      
       <div class="row">
 
         <div class="col-md-7">
-          <form class="myform" onsubmit="return getName()">
+          <h1>AKAN NAME GENERATOR</h1>
+          <p>In many parts of Ghana, a person’s name is determined by the day of the week on which she/he was born.</p>
+          <p>Enter your birthdate and gender below to get your Akan name</p>
+          <form class="myform" onsubmit="return akanName()">
 
               <label for="Year">Year</label>
               <input type="number" class="form-control" id="year" placeholder="eg.2010" required>
@@ -45,15 +46,16 @@
         </div>
 
             <div class="col-md-5">
-              <textarea name="" id="output"></textarea>
+              <h1>NAME</h1>
+              <id="output">
             </div>
 
       </div>
     </div>
 
-
+<script src="js/scripts.js"></script>
   </body>
 
-  <script src="js/scripts.js"></script>
+
 
 </html>
