@@ -22,7 +22,7 @@ var dayOfTheWeek= Math.floor(( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(month+1)/
         gender = "female";
     }
     else {
-        alert("Input gender")
+        alert("Select gender")
       }
 
 
