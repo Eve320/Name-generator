@@ -40,61 +40,61 @@ var bornDay;
         }
 
 
-        else if (dayOfTheWeek == 2 && gender == "female") {
+        else if (dayOfTheWeek == 1 && gender == "female") {
            bornDay = "Monday";
            document.getElementById("output").innerHTML = "You were born on " + bornDay + " and your Akan name is "  + femaleArray[1];
            return true;
-       } else if (dayOfTheWeek == 2 && gender == "male") {
+       } else if (dayOfTheWeek == 1 && gender == "male") {
            bornDay = "Monday";
            adocument.getElementById("output").innerHTML = "You were born on " + bornDay + " and your Akan name is "  + maleArray[1];
            return true;
 
 
-       } else if (dayOfTheWeek == 3 && gender == "female") {
+       } else if (dayOfTheWeek == 2 && gender == "female") {
            bornDay = "Tuesday";
            document.getElementById("output").innerHTML = "You were born on " + bornDay + " and your Akan name is "  + femaleArray[2];
            return true;
-       } else if (dayOfTheWeek == 3 && gender == "male") {
+       } else if (dayOfTheWeek == 2 && gender == "male") {
            bornDay = "Tuesday";
            document.getElementById("output").innerHTML = "You were born on " + bornDay + " and your Akan name is "  + maleArray[2];
            return true;
 
 
-       } else if (dayOfTheWeek == 4 && gender == "female") {
+       } else if (dayOfTheWeek == 3 && gender == "female") {
            bornDay = "Wednesday";
            document.getElementById("output").innerHTML = "You were born on " + bornDay + " and your Akan name is "  + femaleArray[3];
            return true;
-       } else if (dayOfTheWeek == 4 && gender == "male") {
+       } else if (dayOfTheWeek == 3 && gender == "male") {
            bornDay = "Wednesday";
            document.getElementById("output").innerHTML = "You were born on " + bornDay + " and your Akan name is "  + maleArray[3];
            return true;
 
 
-       } else if (dayOfTheWeek == 5 && gender == "female") {
+       } else if (dayOfTheWeek == 4 && gender == "female") {
            bornDay = "Thursday";
            document.getElementById("output").innerHTML = "You were born on " + bornDay + " and your Akan name is "  + femaleArray[4];
            return true;
-       } else if (dayOfTheWeek == 5 && gender == "male") {
+       } else if (dayOfTheWeek == 4 && gender == "male") {
            bornDay = "Thursday";
            document.getElementById("output").innerHTML= "You were born on " + bornDay + " and your Akan name is "  + maleArray[4];
            return true;
 
 
-       } else if (dayOfTheWeek == 6 && gender == "female") {
+       } else if (dayOfTheWeek == 5 && gender == "female") {
            bornDay = "Friday";
            document.getElementById("output").innerHTML = "You were born on " + bornDay + " and your Akan name is "  + femaleArray[5];
            return true;
-       } else if (dayOfTheWeek == 6 && gender == "male") {
+       } else if (dayOfTheWeek == 5 && gender == "male") {
            bornDay = "Friday";
            document.getElementById("output").innerHTML = "You were born on " + bornDay + " and your Akan name is "  + maleArray[5];
            return true;
 
-       } else if (dayOfTheWeek == 1 && gender == "female") {
+       } else if (dayOfTheWeek == 6 && gender == "female") {
            bornDay = "Sarturday";
            document.getElementById("output").innerHTML = "You were born on " + bornDay + " and your Akan name is "  + femaleArray[6];
            return true;
-           console.log("You were born on " + bornDay + " and your Akan name is "  + femaleArray[0]);
-       } else if (dayOfTheWeek == 1 && gender == "male") {
+
+       } else if (dayOfTheWeek == 6 && gender == "male") {
            bornDay = "Saturday";
            document.getElementById("output").innerHTML = "You were born on " + bornDay + " and your Akan name is "  + maleArray[6];
            return true;
