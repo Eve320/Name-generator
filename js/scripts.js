@@ -16,29 +16,32 @@ var dayOfTheWeek= Math.floor(( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(month+1)/
 var gndr = document.getElementsByName("one");
   if(gndr[0].checked == true){
     gender = "male";
-  }else if(gndr[1].checked == true ){
-        gender = "female";
-  }  else {
-        alert("Select gender")
+  } else if(gndr[1].checked == true ){
+      gender = "female";
+  } else {
+      alert("Select gender")
       }
 
 function validateMonth () {
   if(month<=0 || month > 12) {
+    alert("Invalid  Month, Please Try Again")
     return false;
-    alert("Invalid  Month ,Please Try Again")
   } else {
     return true;
   }
 }
 
 function validateDay(){
-  if(day<=0 || day>31){
-    return false;
+  if(date<=0 || date>31){
     alert("Invalid date, Please try again")
+    return false;
   } else{
     return true;
   }
 }
+
+var validMonth = validateMonth();
+var validDay = validateDay();
 
 var bornDay;
     if (dayOfTheWeek == 0 && gender == "female") {
