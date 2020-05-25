@@ -1,5 +1,6 @@
 # AKAN NAME GENERATOR
 A web app that generates an Akan name based on the gender and day of the week they were born. It uses the date of birth to calculate the day of the week born.
+https://eve320.github.io/Name-generator/
 ## Description
 Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. This app takes a user's birthday on the form provided and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 ## Authors
@@ -7,7 +8,7 @@ Evelyne
 
 ## Project setup instructions
 * In the terminal navigate to the directory you want to save the project
-* Clone the project
+* Clone the project (https://github.com/Eve320/Name-generator.git)
 * Navigate into the created folder
 * Open the project with a text editor eg atom (atom .)
 
