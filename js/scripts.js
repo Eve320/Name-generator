@@ -1,22 +1,19 @@
 
+function akanName(){
 var maleArray=["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
 var femaleArray=["AKosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
 
-function getName(){
- var year = parseInt(document.getElementById("year").value);
- var month = parseInt(document.getElementById("month").value);
- var date = parseInt(document.getElementById("date").value);
 
-}
-
-
+var year = parseInt(document.getElementById("year").value);
+var month = parseInt(document.getElementById("month").value);
+var date = parseInt(document.getElementById("date").value);
 var CC = parseInt(document.getElementById("year").value.slice(0,2));
 var YY = parseInt(document.getElementById("year").value.slice(2,4));
 
-var dayOfTheWeek= math.floor()( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(month+1)/10)) + date ) % 7);
+var dayOfTheWeek= math.floor(( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(month+1)/10)) + date ) % 7);
 
 
-var checkgender = function() {
+
 
     var gndr = document.getElementsByName("one");
     if(gndr[0].checked == true){
@@ -27,7 +24,7 @@ var checkgender = function() {
     else {
         alert("Input gender")
       }
-    }
+
 
 var bornDay;
     if (dayOfTheWeek == 0 && gender == "female") {
@@ -38,7 +35,7 @@ var bornDay;
            document.getElementById("output").value = "You were born on" + bornDay + "Your Akan name is "  + maleArray[0];
         }
 
-       } else if (dayOfTheWeek == 2 && gender == "female") {
+        else if (dayOfTheWeek == 2 && gender == "female") {
            bornDay = "Monday";
            document.getElementById("output").value = "You were born on" + bornDay + "Your Akan name is "  + femaleArray[1];
        } else if (dayOfTheWeek == 2 && gender == "male") {
@@ -84,4 +81,5 @@ var bornDay;
            bornDay = "Saturday";
            document.getElementById("output").value = "You were born on" + bornDay + "Your Akan name is "  + maleArray[6];
          }
-         
+
+}
