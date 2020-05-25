@@ -5,6 +5,8 @@
     <title>AKAN NAME GENERATOR</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="styles.css" type="text/css">
+
+
   </head>
   <body>
     <div class="container">
@@ -14,23 +16,19 @@
       <div class="row">
 
         <div class="col-md-7">
-          <form>
-            <div class="form-group">
-              <label for="Year">Year</label>
-              <input type="year" class="form-control" id="year" placeholder="eg.2010" required>
-            </div>
+          <form class="myform" onsubmit="return getName()">
 
-            <div class="form-group">
+              <label for="Year">Year</label>
+              <input type="number" class="form-control" id="year" placeholder="eg.2010" required>
+
               <label for="Month">Month</label>
               <input type="number" class="form-control" id="month" placeholder="eg.2" min="1" max="12" required>
-            </div>
 
-            <div class="form-group">
-              <label for="Day">Day</label>
-              <input type="text" class="form-control" id="day" placeholder="eg.10" min="1" max="31" required>
-            </div>
+              <label for="Date">Date</label>
+              <input type="number" class="form-control" id="date" placeholder="eg.10" min="1" max="31" required>
 
-            <div class="form-group form-check">
+
+            <div class="form-check">
               <input type="radio" name="one" class="form-check-input" value="" id="gender">
               <label for="male">Male</label>
               <br>
@@ -43,16 +41,19 @@
               <!-- <input type="reset"> -->
             </div>
 
-
-
           </form>
         </div>
 
+            <div class="col-md-5">
+              <p id="result"></p>
+            </div>
 
+      </div>
     </div>
-  </div>
-
 
 
   </body>
+
+  <script src="js/scripts.js"></script>
+
 </html>
