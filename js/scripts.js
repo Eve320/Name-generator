@@ -31,8 +31,8 @@ function validateMonth () {
   }
 }
 
-function validateDay(){
-  if(date<=0 || date>31){
+function validateDate (){
+  if(date<=0 || date > 31){
     alert("Invalid date, Please try again")
     return false;
   } else{
@@ -41,7 +41,7 @@ function validateDay(){
 }
 
 var validMonth = validateMonth();
-var validDay = validateDay();
+var validDay = validateDate();
 
 var bornDay;
     if (dayOfTheWeek == 0 && gender == "female") {
